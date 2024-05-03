@@ -1,12 +1,10 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 import 'two.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class thri extends StatelessWidget {
+  const thri({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -59,11 +57,11 @@ class MySVScreen extends StatelessWidget {
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide:
-                          BorderSide(color: Color(0xFF66BB6A), width: 1.2),
+                      BorderSide(color: Color(0xFF66BB6A), width: 1.2),
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderSide:
-                          BorderSide(color: Color(0xffC5DDDD), width: 1.0),
+                      BorderSide(color: Color(0xffC5DDDD), width: 1.0),
                     ),
                   ),
                 ),
@@ -82,11 +80,11 @@ class MySVScreen extends StatelessWidget {
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide:
-                          BorderSide(color: Color(0xFF66BB6A), width: 1.2),
+                      BorderSide(color: Color(0xFF66BB6A), width: 1.2),
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderSide:
-                          BorderSide(color: Color(0xffC5DDDD), width: 1.0),
+                      BorderSide(color: Color(0xffC5DDDD), width: 1.0),
                     ),
                   ),
                 ),
@@ -124,7 +122,7 @@ class MySVScreen extends StatelessWidget {
 
                       shape: RoundedRectangleBorder(
                         borderRadius:
-                            BorderRadius.circular(70), // Округление углов
+                        BorderRadius.circular(70), // Округление углов
                       ),
                       padding: const EdgeInsets.symmetric(
                           horizontal: 40, vertical: 30),

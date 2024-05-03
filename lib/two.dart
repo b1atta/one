@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'thri.dart';
+class two extends StatefulWidget {
+  const two({Key? key}) : super(key: key);
 
-class SecondPage extends StatelessWidget {
-  const SecondPage({Key? key}) : super(key: key);
+  @override
+  State<two> createState() => _twoState();
+}
 
+class _twoState extends State<two> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
@@ -36,7 +41,7 @@ class MySVScreen extends StatelessWidget {
 
               const SizedBox(height: 50),
 
-                Padding(padding: EdgeInsets.all(25.0),
+                const Padding(padding: EdgeInsets.all(25.0),
                 child: Text(
                     '''Цель игры: Найти все пары одинаковых карточек.
    Правило: Запомните местоположение каждой карточки, которую вы перевернули. Когда вы переворачиваете следующую карточку, сравнивайте ее с предыдущей. Если они одинаковые,получаете очки. Если они разные, продолжайте искать другие пары. Победа: Игра заканчивается, когда все пары найдены.''',
@@ -55,7 +60,12 @@ class MySVScreen extends StatelessWidget {
 
                 children: [
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const thri()));
+                    },
                     child: const Text(
                       'Начать',
                       style: TextStyle(
