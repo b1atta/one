@@ -1,13 +1,16 @@
-import 'package:flutter/material.dart';
-import 'thri.dart';
-class two extends StatefulWidget {
-  const two({Key? key}) : super(key: key);
+import 'package:flutter/material.dart' show AssetImage, BorderRadius, BoxDecoration, BoxFit, BoxShape,
+BuildContext, Center, Color, Colors, Column, Container, DecorationImage, EdgeInsets, ElevatedButton, Key, MainAxisAlignment,
+MaterialApp, MaterialPageRoute, Navigator, Padding, RoundedRectangleBorder, Row, SafeArea, Scaffold, SizedBox, State, StatefulWidget,
+StatelessWidget, Text, TextAlign, TextStyle, Widget;
+import 'Three.dart';
+class Two extends StatefulWidget {
+  const Two({Key? key}) : super(key: key);
 
   @override
-  State<two> createState() => _twoState();
+  State<Two> createState() => _TwoState();
 }
 
-class _twoState extends State<two> {
+class _TwoState extends State<Two> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
@@ -64,7 +67,7 @@ class MySVScreen extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const thri()));
+                              builder: (context) => const Three()));
                     },
                     child: const Text(
                       'Начать',

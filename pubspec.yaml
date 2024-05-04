@@ -59,7 +59,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/angry-bird.gif
+    - assets/images/angry-bird.gif
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -80,16 +80,16 @@ flutter:
   fonts:
     - family: RubikBubbles
       fonts:
-        - asset: fonts/RubikBubbles-Regular.ttf
+        - asset: assets/fonts/RubikBubbles-Regular.ttf
     - family: Steppe1
       fonts:
-        - asset: fonts/Steppe-Thin.ttf
+        - asset: assets/fonts/Steppe-Thin.ttf
     - family: Steppe2
       fonts:
-        - asset: fonts/Steppe-Light.ttf
+        - asset: assets/fonts/Steppe-Light.ttf
     - family: Steppe3
       fonts:
-        - asset: fonts/Steppe-Regular.ttf
+        - asset: assets/fonts/Steppe-Regular.ttf
 
 
 

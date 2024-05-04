@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'two.dart';
+import 'Two.dart';
 
 void main() {
   runApp(const MyApp());
@@ -92,11 +92,7 @@ class MySVScreen extends StatelessWidget {
                 ),
               ),
 
-              const SizedBox(
-                height: 15,
-              ),
-
-              const SizedBox(height: 20),
+              const SizedBox(height: 30),
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -106,7 +102,7 @@ class MySVScreen extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const two()));
+                              builder: (context) => const Two()));
                     },
                     child: const Text(
                       'Пропустить',

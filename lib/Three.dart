@@ -1,10 +1,13 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/cupertino.dart'
+    show AssetImage, BorderRadius, BorderSide, BoxDecoration, BoxFit, BoxShape, BuildContext, Center, Color,
+    Column, Container, CrossAxisAlignment, DecorationImage, EdgeInsets, Expanded, FontWeight, Key, MainAxisAlignment,
+    Navigator, Padding, RoundedRectangleBorder, Row, SafeArea, SizedBox, StatelessWidget, Text, TextAlign, TextStyle, Widget;
 import 'package:flutter/material.dart';
 
 import 'Two.dart';
 
-class thri extends StatelessWidget {
-  const thri({Key? key}) : super(key: key);
+class Three extends StatelessWidget {
+  const Three({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -104,7 +107,7 @@ class MySVScreen extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const two()));
+                              builder: (context) => const Two()));
                     },
                     child: const Text(
                       'Пропустить',
